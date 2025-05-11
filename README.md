@@ -27,39 +27,6 @@ git clone https://github.com/x-lab/OpenTalent.git
 cd OpenTalent
 ```
 
-### 2. 安装依赖
-
-我们推荐使用 `virtualenv` 来隔离 Python 环境，首先安装虚拟环境：
-
-```bash
-pip install virtualenv
-virtualenv venv
-source venv/bin/activate
-```
-
-然后安装项目的依赖：
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. 运行数据处理与分析
-
-使用以下命令来处理原始 GitHub 数据并进行分析：
-
-```bash
-python src/data_processing/process_data.py
-python src/analysis/run_analysis.py
-```
-
-### 4. 查看贡献报告
-
-生成的报告会保存在 `reports/` 目录下，您可以通过以下命令生成报告：
-
-```bash
-python src/scoring/generate_report.py --output reports/contribution_report.json
-```
-
 ## 贡献指南
 
 我们欢迎任何形式的贡献！您可以通过以下方式参与：
