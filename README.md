@@ -30,20 +30,19 @@
 │   │   └── test/               # 单元测试目录
 │   └── .mvn/wrapper                 # Maven Wrapper配置
 │   └── .gitattributes               # Git 属性配置
-│   └── .gitignore                   # Git 忽略配置
-│   └──  mvnw                        # Maven Wrapper脚本
+│   └── .gitignore                   # 
+│   └──  mvnw                        #
 │   └──  mvnw.cmd                    # Maven Wrapper脚本
 │   └── pom.xml                      # Maven 构建配置文件
 ├── frontend               # 前端项目目录
 │   ├── public/              # 公共静态资源目录
 │   ├── src/                 # Vue源码目录
-│   └── package.json         # 前端依赖和脚本定义
-│   └── .browserslistrc	     # 配置目标浏览器兼容范围
-│   └── .gitignore
+│   └── .gitignore   
+│   └── .browserslistrc	     
 │   └── babel.config.js	     # Babel转码配置
 │   └── jsconfig.json
-│   └── package.json
-│   └── package-lock.json
+│   └── package.json         # 前端依赖和脚本定义
+│   └── package-lock.json   
 │   └── vue.config.js
 ```
 
