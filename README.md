@@ -15,6 +15,27 @@
 ## 项目结构
 
 ```plaintext
+├── backend                # 后端服务目录
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/           # Java 源码目录
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── opentalent/   # 主业务包，包含控制器、服务、实体、仓库等
+│   │   │   └── resources/      # Spring Boot 配置文件和资源文件目录
+│   │   │       ├──  db
+│   │   │       ├──  mapper
+│   │   │       └──  application.yml   # 应用配置文件
+│   │   │       ├──  template.xlsx
+│   │   └── test/               # 单元测试目录
+│   └── .mvn/wrapper                 # Maven Wrapper配置
+│   └── .gitattributes               # Git 属性配置
+│   └── .gitignore                   # Git 忽略配置
+│   └──  mvnw                        # Maven Wrapper脚本
+│   └──  mvnw.cmd                    # Maven Wrapper脚本
+│   └── pom.xml                      # Maven 构建配置文件
+├── frontend               # 前端项目目录
+
 
 ```
 
