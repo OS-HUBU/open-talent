@@ -35,8 +35,16 @@
 │   └──  mvnw.cmd                    # Maven Wrapper脚本
 │   └── pom.xml                      # Maven 构建配置文件
 ├── frontend               # 前端项目目录
-
-
+│   ├── public/              # 公共静态资源目录
+│   ├── src/                 # Vue源码目录
+│   └── package.json         # 前端依赖和脚本定义
+│   └── .browserslistrc	     # 配置目标浏览器兼容范围
+│   └── .gitignore
+│   └── babel.config.js	     # Babel转码配置
+│   └── jsconfig.json
+│   └── package.json
+│   └── package-lock.json
+│   └── vue.config.js
 ```
 
 ## 安装与使用
