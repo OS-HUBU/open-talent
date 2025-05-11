@@ -69,7 +69,14 @@ spring:
 ```
 
 ### 4. 使用 Maven 构建项目
-
+如果使用 Maven Wrapper：
+```bash
+./mvnw clean install
+```
+或使用本地 Maven：
+```bash
+mvn clean install
+```
 ### 5. 启动后端服务
 
 
