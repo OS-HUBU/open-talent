@@ -15,17 +15,7 @@
 ## 项目结构
 
 ```plaintext
-├── data/                # 数据存储目录
-│   ├── raw/             # 原始 GitHub 行为数据
-│   ├── processed/       # 处理后的数据
-├── src/                 # 源代码目录
-│   ├── data_processing/ # 数据处理相关脚本
-│   ├── analysis/        # 开源贡献分析算法
-│   ├── scoring/         # 评分系统
-├── reports/             # 生成的报告目录
-├── README.md            # 项目说明文件
-├── requirements.txt     # 依赖库列表
-├── LICENSE              # 开源许可
+
 ```
 
 ## 安装与使用
