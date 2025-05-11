@@ -55,10 +55,12 @@ git clone https://github.com/x-lab/OpenTalent.git
 cd OpenTalent
 ```
 
-### 2. 创建数据库并初始化
+## 后端backend安装运行步骤
+
+### 1.创建数据库并初始化
 执行 src/main/resources/db/init.sql 中的 SQL 脚本来初始化表结构和数据
 
-###  3. 配置数据库连接
+### 2. 配置数据库连接
 编辑 src/main/resources/application.yml，根据你的本地环境配置数据库信息：
 ```bash
 spring:
@@ -68,7 +70,7 @@ spring:
     password: your_password
 ```
 
-### 4. 使用 Maven 构建项目
+### 3. 使用 Maven 构建项目
 如果使用 Maven Wrapper：
 ```bash
 ./mvnw clean install
@@ -77,7 +79,10 @@ spring:
 ```bash
 mvn clean install
 ```
-### 5. 启动后端服务
+### 4. 启动后端服务
+
+## 前端frontend安装运行步骤
+
 
 
 ## 贡献指南
