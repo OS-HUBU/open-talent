@@ -56,15 +56,11 @@ cd OpenTalent
 ```
 
 ### 2. 创建数据库并初始化
-
-```bash
 执行 src/main/resources/db/init.sql 中的 SQL 脚本来初始化表结构和数据
-```
 
 ###  3. 配置数据库连接
-
-```bash
 编辑 src/main/resources/application.yml，根据你的本地环境配置数据库信息：
+```bash
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/open_talent?serverTimezone=UTC
